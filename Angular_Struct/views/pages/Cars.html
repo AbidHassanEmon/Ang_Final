@@ -1,0 +1,26 @@
+<div>
+    <h1>Cars</h1>
+  
+      <table border="1" class="table">
+        <tr>
+          <th>Car Id</th>
+          <th>Name</th>
+          <th>Model</th>
+          <th>Regristration</th>
+          <th>Millage</th>
+          <th>Rent</th>
+          <th>Description</th>
+        </tr>
+        <tr ng-repeat="p in Cars">
+            <td>{{p.Car_id}}</td>
+            <td>{{p.Name}}</td>
+            <td>{{p.Model}}</td>
+            <td>{{p.Reg_year}}</td>
+            <td>{{p.Mileage}}</td>
+            <td>{{p.Rent}}</td>
+            <td>{{p.Description}}</td>
+        </tr>
+      </table>
+      <h1>{{msg}}</h1>
+  </div>
+  

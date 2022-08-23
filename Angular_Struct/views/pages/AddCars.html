@@ -1,0 +1,17 @@
+<form ng-submit="submit()">
+    Name: <input type="text" ng-model="post.Name" class="form-control" > <br />
+
+    Model: <input type="text" ng-model="post.Model" class="form-control" ><br>
+
+    Regristration Year: <input type="text" ng-model="post.Reg_year" class="form-control" ><br />
+
+    Mileage: <input type="text" ng-model="post.Mileage" class="form-control" > <br />
+
+    Rent: <input type="text" ng-model="post.Rent" class="form-control" > <br />
+    
+    Description:<textarea ng-model="post.Description" rows="4" cols="10" class="form-control" ></textarea>
+    <br>
+    <h3>{{msg}}</h3>
+    <input type="submit">
+
+</form>
